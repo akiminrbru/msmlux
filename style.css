@@ -2956,3 +2956,173 @@ footer {
 		padding-bottom: 50px;
 	}
 }
+
+/* Доставка */
+
+.genppgenppDelivery {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-bottom: 36px;
+	gap: 20px;
+}
+
+.genppgenppDelivery__left {
+	max-width: 536px;
+}
+
+.genppgenppDelivery__left p {
+	color: #000;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 34px;
+}
+
+.genppgenppDelivery__right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.genppgenppDelivery__right img {
+	display: block;
+}
+
+.genppDeliveryContacts {
+	margin-bottom: 50px;
+}
+
+.genppDeliveryContacts h2 {
+	margin-bottom: 40px;
+	color: #2c2727;
+	font-family: "Inter", sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.genppDeliveryContacts__content {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.genppDeliveryContacts__left {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex-grow: 1;
+	max-width: 421px;
+}
+
+.genppDeliveryContacts__left > div {
+	padding: 20px 26px;
+	background: #f1f5fa;
+	width: 100%;
+}
+
+.genppDeliveryContacts__left h5 {
+	color: #000;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+
+.genppDeliveryContacts__left p {
+	max-width: 267px;
+	color: #000;
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.genppDeliveryContacts__left ul {
+	list-style-type: none;
+}
+
+.genppDeliveryContacts__left ul a {
+	color: #000;
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+.genppDeliveryContacts__left ul a:hover {
+	color: #ffc122;
+}
+
+.genppDeliveryContacts__ul {
+	margin-bottom: 20px;
+}
+
+.genppDeliveryContacts__right {
+	flex-grow: 1;
+}
+
+.genppDeliveryContacts__right iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.genppDeliveryProducts-wrapper .info__product {
+	padding: 28px 21px 28px 30px;
+}
+
+.genppDeliveryProducts-wrapper .info__title {
+	margin: 0;
+	margin-bottom: 10px;
+	font-family: "Inter", sans-serif;
+	transition: color 0.3s ease-in-out;
+}
+
+.genppDeliveryProducts-wrapper .info__description {
+	margin: 0;
+	font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 1250px) {
+	.genppgenppDelivery__right {
+		position: static;
+		display: flex;
+		justify-content: center;
+	}
+
+	.genppgenppDelivery__right img {
+		width: 100%;
+		max-width: 650px;
+	}
+
+	.genppgenppDelivery {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.genppgenppDelivery__left {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.genppDeliveryContacts__content {
+		flex-direction: column;
+	}
+
+	.genppDeliveryContacts__left {
+		max-width: 100%;
+	}
+
+	.genppDeliveryContacts__right {
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.genppDeliveryContacts h2 {
+		font-size: 24px;
+	}
+}
